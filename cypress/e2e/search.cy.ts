@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Module 2 - Search Box', () => {
+describe('Search', () => {
     it('should search gifs successfully and validate API response', () => {
         cy.intercept('GET', '**/v1/gifs/search*').as('searchGifs')
 

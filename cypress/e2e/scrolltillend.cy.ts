@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Module 3 - Scroll till the end', () => {
+describe('Scroll till the end', () => {
     it('should request more gifs after scrolling', () => {
         cy.intercept('GET', '**/v1/gifs/trending*').as('getTrendingGifs')
 
