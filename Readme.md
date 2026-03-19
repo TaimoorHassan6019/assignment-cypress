@@ -4,7 +4,7 @@ The source code was not provided so I worked with the live application as a blac
 I focused on the main features that were available in the website:
 1. Loading gif photos
 2. Searching for a specific gif
-3. Scrolling till end
+3. Uploading a gif
 
 Tools used:
 1. Cypress
